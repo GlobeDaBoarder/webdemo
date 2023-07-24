@@ -8,8 +8,8 @@ public class HomeController {
     @RequestMapping("/")
     public String home() {
         return "<h1>hello world!</h1>"
+                + "<p>This is an update to code</p>"
                 + "<p>This is an update to code</p>";
-//                + "<p>This is an update to code</p>";
 
 
     }
